@@ -1,0 +1,110 @@
+[
+    {
+        "action_name": "cut",
+        "action_description": "Separate material into parts by applying a sharp edge across its surface.",
+        "physics": "shearing force and stress concentration along a thin edge",
+        "affordance": "sharp, rigid edge capable of sustaining high local stress"
+    },
+    {
+        "action_name": "stab",
+        "action_description": "Penetrate a surface using a concentrated point of force.",
+        "physics": "stress concentration at a sharp tip enabling material failure",
+        "affordance": "pointed, rigid tip"
+    },
+    {
+        "action_name": "break",
+        "action_description": "Fracture or destroy structural integrity through applied force.",
+        "physics": "impact loading and stress accumulation exceeding material strength",
+        "affordance": "hard or heavy object capable of delivering force"
+    },
+    {
+        "action_name": "pull",
+        "action_description": "Apply force to draw an object closer or move it along a direction.",
+        "physics": "tension force and directional force transfer",
+        "affordance": "grippable surface or hooked structure"
+    },
+    {
+        "action_name": "roll",
+        "action_description": "Move an object by rotational contact with a supporting surface.",
+        "physics": "rotational motion with reduced sliding friction",
+        "affordance": "round or cylindrical geometry"
+    },
+    {
+        "action_name": "carry",
+        "action_description": "Transport an object while maintaining balance and control.",
+        "physics": "load support, center-of-mass stabilization, and frictional grip",
+        "affordance": "handle-like or stable structure capable of supporting weight"
+    },
+    {
+        "action_name": "reach",
+        "action_description": "Extend interaction distance to access distant objects.",
+        "physics": "lever extension and force transmission over length",
+        "affordance": "elongated rigid structure"
+    },
+    {
+        "action_name": "press",
+        "action_description": "Apply compressive force onto a surface or object.",
+        "physics": "normal force application and localized pressure",
+        "affordance": "rigid contact surface capable of transmitting force"
+    },
+    {
+        "action_name": "hammer",
+        "action_description": "Strike an object to drive, deform, or embed it.",
+        "physics": "momentum transfer and impulsive impact force",
+        "affordance": "weighted, rigid striking surface"
+    },
+    {
+        "action_name": "scoop",
+        "action_description": "Collect and transfer loose material or liquid.",
+        "physics": "containment through concavity and volume support",
+        "affordance": "concave or hollow structure"
+    },
+    {
+        "action_name": "shake",
+        "action_description": "Move an object rapidly back and forth to induce motion effects.",
+        "physics": "oscillatory motion and inertia-induced displacement",
+        "affordance": "grippable object with sufficient mass"
+    },
+    {
+        "action_name": "filter",
+        "action_description": "Separate particles from a mixture based on size or permeability.",
+        "physics": "size exclusion and flow through porous medium",
+        "affordance": "porous or mesh-like material"
+    },
+    {
+        "action_name": "scrape",
+        "action_description": "Remove material from a surface through sliding contact.",
+        "physics": "frictional shear force along a rigid edge",
+        "affordance": "flat or slightly angled rigid edge"
+    },
+    {
+        "action_name": "sweep",
+        "action_description": "Gather scattered material across a surface toward a direction.",
+        "physics": "distributed force transfer across surface contact",
+        "affordance": "broad edge or brush-like structure"
+    },
+    {
+        "action_name": "pin",
+        "action_description": "Stabilize or immobilize an object using localized force.",
+        "physics": "constraint enforcement and frictional stabilization",
+        "affordance": "small rigid contact area capable of applying pressure"
+    },
+    {
+        "action_name": "block",
+        "action_description": "Prevent motion or restrict access by obstructing a path.",
+        "physics": "force opposition and structural resistance",
+        "affordance": "rigid and stable object with sufficient size"
+    },
+    {
+        "action_name": "tighten",
+        "action_description": "Increase connection firmness by applying rotational or compressive force.",
+        "physics": "torque application and constraint reinforcement",
+        "affordance": "grippable surface enabling torque transmission"
+    },
+    {
+        "action_name": "loosen",
+        "action_description": "Reduce constraint or release a connection by reversing applied torque or force.",
+        "physics": "reverse torque and constraint relaxation",
+        "affordance": "grippable structure allowing rotational force"
+    }
+]
