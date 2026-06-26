@@ -1,17 +1,4 @@
-# TAILOR Evaluation Pipeline
-
-This repository contains a pipeline for building and evaluating multimodal task instances. It can:
-
-- generate task definitions from an action ontology,
-- expand tasks into creative and impossible-tool variants,
-- produce image/video prompts and rubric checklists,
-- run prompt sets through image and video generation models, and
-- collect human ratings in a Gradio annotation UI.
-
-The code is organized around two workflows:
-
-- `data_engine/`: LLM-assisted task, prompt, and rubric generation.
-- `evaluation/`: automatic media generation and human annotation.
+# TAILOR: Trimming the Long-Tail of Visual World Modeling Evaluation
 
 ## Repository Layout
 
@@ -278,6 +265,7 @@ cp data_engine/action_ontology.json action_ontology.json
 python data_engine/stage_1_run_all_parallel.py --jobs 10
 
 # 3. Create or curate tasks/filtered_tasks.json.
+# Human evaluation and filtering here.
 
 # 4. Generate prompts and rubrics.
 python data_engine/stage2_run_all_parallel.py \
